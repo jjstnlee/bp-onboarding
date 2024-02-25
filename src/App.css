@@ -1,38 +1,120 @@
 .App {
+  display: flex;
+  width: 1457px;
+  height: 947px;
+  padding: 115px 459px 115px 460px;
+  align-items: center;
+  background-color: lavender;
+}
+
+.card {
+  width: 538px;
+  height: 717px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #FFF;
+  box-shadow: 0px 4px 75px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #26235C;
+  background: url(/Users/jjunseol04/Downloads/meow.png), lightgray -1.249px -57.532px / 100% 150.037% no-repeat;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.info {
+  width: 430px;
+  height: 187px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  width: 275px;
+  height: 46px;
+  flex-shrink: 0;
+  color: #252525;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.info1 {
+  width: 200px;
+  height: 30px;
+  flex-shrink: 0;
+  color: black;
+  font-size: 25px;
+  font-style:normal;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  margin: auto;
+}
+
+.info2 {
+  width: 430px;
+  height: 88px;
+  flex-shrink: 0;
+  color: #252525;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+  margin-top: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.email {
+  width: 275px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: purple;
+  margin: auto;
+  margin-top: 30px;
+  color: #FFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.socials {
+  width: 408px;
+  height: 39px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons {
+  width: 48px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #26235C;
+  text-align: center;
+  font-family: "Font Awesome 5 Brands";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
